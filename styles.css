@@ -1,10 +1,10 @@
 /*
 COLOR PALETTE
-#60463b - Liver - dark color for background or text
-#856A5D - light color for a dark background, or light background for dark text
-#CCC9E7 - Periwinkle - Light color for background or text on a dark backgorund
-#6C6F7D - Dim Gray - Light color on dark background or dark background
-#2E3138 - Gunmetal - Dark background color or text on a light background
+#60463b - Liver - Dark brown color for background or text
+#C1A699 - Light brown color for a dark background, or light background for dark text
+#CCC9E7 - Periwinkle - Light purple color for background or text on a dark backgorund
+#6C6F7D - Dim Gray - Light gray color on dark background or dark background
+#2E3138 - Gunmetal - Dark gray/black background color or text on a light background
 */
 
 
@@ -29,7 +29,7 @@ html {
     width: 300px;
   }
   a {
-    color: #2E3138;
+    color: #CCC9E7;
   }
   a:hover {
     color: #2E3138;
@@ -89,7 +89,7 @@ html {
   ------------------------------------*/
   .projects {
     background: #60463B;
-    color: #c1a699;
+    color: #C1A699;
   }
   .projects a {
     color: #CCC9E7;
@@ -128,8 +128,8 @@ html {
   /* Contact Info
   ------------------------------------*/
   footer {
-    background: #2E3138;
-    color: #6C6F7D;
+    background: #343434;
+    color: #F7FFF7;
   }
   .contact-list {
     list-style-type: none;
@@ -141,6 +141,11 @@ html {
     color: #856A5D;
   }
 
+  .contact-list a:hover {
+    padding: 15px;
+    display: inline-block;
+    color: #CCC9E7;
+  }
 
 /* Responsive
 ------------------------------------*/
